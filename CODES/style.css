@@ -1,0 +1,216 @@
+*{
+    scroll-behavior: smooth;
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:fit-content;
+    background-image:url(./IMAGES/background-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+ header{
+    width:1000;
+    height:fit-content;
+    background-image:url(./IMAGES/color.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+header h1{
+    font-size: 45px;;
+    color:white;
+    position: absolute;
+    color: aqua;
+    top:-10px;
+    left:-350px;
+
+}
+main{
+    width:fit-content;
+    height: fit-content;
+    background-image:url(./IMAGES/color2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom:1px solid white;
+}
+nav{
+    position:relative;
+    width:auto;
+    height:50px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+   
+   
+}
+nav ul{
+    position: absolute;
+    top:10px;
+    list-style: none;
+    display:flex;
+    margin-left:60%;
+
+}
+nav li{
+   
+    font-size:18px;
+    padding:0px 30px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    transform: scaleX(50px);
+    border-bottom:3px solid white;
+
+}
+.sidebar{
+    display:none;
+    position:absolute;
+    top:5px;
+    left:0px;
+}
+.closebar{
+    display:none;
+    position:absolute;
+    top:5px;
+    left:0px;
+}
+.control{
+    display: none;
+    margin-left:30px;
+    border-radius:22px;
+    background-image: url(./IMAGES/vr2.jpg);
+    backdrop-filter: blur 100px;
+    width:200px;
+    height:310px;
+    list-style: none;
+  
+}
+.control a{
+    color:white;
+    position:relative;
+    top:10px;
+    left:5px;
+    text-decoration: none;
+    font-size:40px;
+}
+#about{
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+figcaption{
+   
+    font-size:30px;
+    color:rgb(15, 200, 178);
+}
+figcaption p{
+    color:rgb(236, 228, 231);
+    margin-left:100px;
+    margin-bottom:100px;
+    width:900px;
+}
+figcaption h1 img{
+    position:relative;
+    top:20px;
+    width: 90px;
+    height:90px;
+}
+#events h1,figcaption h1,#contact{
+    margin-top:10px;
+    margin-left:50px;
+    font-size:50px;
+    color:white;
+}
+.card{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+   
+}
+.card img{
+    border-radius:22px;
+    width:300px;
+    height:350px;
+    margin:30px;
+}
+#contact{
+    margin-top:100px;
+}
+#contact h1,#contact{
+    margin-bottom:50px;
+}
+#contact figure a{
+    margin:50px;
+    padding:20px;
+}
+footer{
+    margin-top: 0px;
+    width: 100%;
+    height:200px;
+    font-size:20px;
+   /*  border-top:1px solid white; */
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    position:relative;
+    left:50px;
+    font-size:20px;
+    border-radius:50%;
+}
+@media screen and (max-width:900px){
+    .sidebar{
+        display:block;
+    }
+   nav a{
+    display:none;
+   }
+   main{
+    background-image: url(./IMAGES/vr3.jpg);
+    width:1500px;
+   }
+   body{
+    background-image:url(./IMAGES/vr2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+   }
+   body,header,#about{
+    width:1500px;
+   }
+   .card{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis:20%;
+   }
+   .card img{
+    width:100%;
+    height:100%;
+   }
+   .card div{
+    margin-left:250px;
+    margin-bottom:100px ;
+   }
+   nav ul{
+    margin-left:30px;
+   }
+   footer{
+    width:100%;
+   }
+}
+.boy{
+    position:absolute;
+    top:100px;
+    left:930px;
+    width:300px;
+    height:500px;
+}
+.home{
+    position:relative;
+    bottom:-50px;
+    left:-100px;
+}
