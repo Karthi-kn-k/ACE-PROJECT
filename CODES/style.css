@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat; 
 }
  header{
+    
     width:1000;
     height:fit-content;
     background-image:url(./IMAGES/color.jpg);
@@ -34,7 +35,7 @@ main{
     border-bottom:1px solid white;
 }
 nav{
-    position:relative;
+
     width:auto;
     height:50px;
     background-color: black;
